@@ -1,0 +1,14 @@
+/* 需要注入的 CSS */
+@tailwind utilities;
+
+.tooltip {
+  position: fixed;
+  pointer-events: none;
+  z-index: 999;
+  transform: translate(-50%, calc(-100% - 5px));
+}
+
+.data-list {
+  border-left: 1px solid #d6caca;
+}
+

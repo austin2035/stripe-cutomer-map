@@ -7,6 +7,7 @@ const srcDir = path.join(__dirname, "..", "src");
 
 module.exports = {
     entry: {
+        injectCSS: path.join(srcDir, 'inject.css'),
         // popup: path.join(srcDir, 'popup.js'),
         options: path.join(srcDir, 'options.js'),
         background: path.join(srcDir, 'background.js'),

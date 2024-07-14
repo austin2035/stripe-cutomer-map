@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "插件名称",
-  "description": "这里是插件的介绍",
+  "name": "Stripe Helper",
+  "description": "It can help you see where your stripe customers come from.",
   "version": "1.0.0",
   "host_permissions": [
-    "https://example.com/*"
+    "https://dashboard.stripe.com/*"
   ],
   "options_ui": {
     "page": "options.html"
@@ -20,8 +20,13 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["js/vendor.js", "js/content_script.js"],
+      "matches": [
+        "https://dashboard.stripe.com/*"
+      ],
+      "js": [
+        "js/vendor.js",
+        "js/content_script.js"
+      ],
       "run_at": "document_end",
       "all_frames": false
     }
@@ -31,9 +36,17 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["js/web_accessible_resources.js", "css/content_script.css"],
-      "matches": ["<all_urls>"]
+      "resources": [
+        "js/*",
+        "css/*",
+        "static/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
     }
   ],
-  "permissions": ["storage", "tabs"]
+  "permissions": [
+    "storage"
+  ]
 }
