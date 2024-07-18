@@ -1,7 +1,19 @@
-# Chrome Extension JavaScipt Starter
+# Stripe customer map
 
+It can help you see where your stripe customers come from.Not official Stripe extension.
 
-Chrome Extension, JavaScript and Visual Studio Code
+[🔗Download Link](https://chromewebstore.google.com/detail/stripe-customer-map/bonkiegkelbfjjhlpelmpbhbcbekllop)
+
+## Detail
+
+This extension allows you to view the global user distribution clearly, just like website statistics, with a global perspective, and allows interactive viewing of the number of users in each country.
+
+## Feautrues
+
+1. View the global distribution of users, represented by varying shades of color.
+2. Interactively check the specific number of users in each region.
+3. Display the TOP10 regions and their user counts.
+4. The map supports dragging and zooming.
 
 ## Prerequisites
 
@@ -10,18 +22,6 @@ Chrome Extension, JavaScript and Visual Studio Code
 ## Option
 
 * [Visual Studio Code](https://code.visualstudio.com/)
-
-## Includes the following
-
-* TypeScript
-* Webpack
-* React
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
 
 ## Project Structure
 
