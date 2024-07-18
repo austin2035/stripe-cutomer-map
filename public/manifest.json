@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Stripe Helper",
-  "description": "It can help you see where your stripe customers come from.",
+  "name": "Stripe Customer Map",
+  "description": "It can help you see where your stripe customers come from.Not official Stripe extension.",
   "version": "1.0.0",
   "host_permissions": [
     "https://dashboard.stripe.com/*"
